@@ -11,6 +11,7 @@ var gameScene = cc.Scene.extend({
 });
 
 var console_label;
+
 var game = cc.Layer.extend({
     ctor: function() {
         this._super();
