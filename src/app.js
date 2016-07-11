@@ -87,7 +87,7 @@ function checkTiles() {
             pickedTiles[1].initWithFile(res.cover_png);
             miss++;
             missText.setString("Miss: " + miss);
-
+            //三回ミスするとthirdSceneへ
             if (miss == 3) {
                 cc.director.runScene(new thirdScene());
             }
