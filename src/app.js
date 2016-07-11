@@ -88,11 +88,10 @@ function checkTiles() {
             miss++;
             missText.setString("Miss: " + miss);
 
-
-
             if (miss == 3) {
                 cc.director.runScene(new thirdScene());
             }
+
         } else {
             gameLayer.removeChild(pickedTiles[0]);
             gameLayer.removeChild(pickedTiles[1]);
